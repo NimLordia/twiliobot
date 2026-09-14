@@ -1,1 +1,25 @@
+# Private configuration
 .env
+.env.*
+!.env.example
+
+# Virtual environments
+.venv/
+venv/
+
+# Python-generated files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local databases and SQLite temporary files
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+
+# Editor settings
+.idea/
+.vscode/
